@@ -1,0 +1,109 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color:#A9A9A9;
+}
+
+h1{
+	text-align: center;
+	font-weight: 20;
+	font-family: 'Anton', sans-serif;
+	font-size: 5rem;
+}
+
+h2{
+	text-align: center;
+	font-weight: 10;
+	font-family: 'Anton', sans-serif;
+	font-size: 2rem;
+	text-transform: capitalize;
+}
+
+
+button{
+    text-align: center;
+	font-weight: 2;
+	font-family: 'Anton', sans-serif;
+	font-size: 2rem;
+	
+
+}
+
+.drumarea{
+margin-left: 6rem;
+
+}
+.Drum{
+	text-align: center;
+	 border: solid #666;
+	 border-radius: 0.5rem;
+	 border-width:0.6rem;
+	 margin: 2rem;
+	 background-size: 100%; 
+
+     height: 8rem;
+     width: 8rem;
+}
+
+
+#warn{
+	display: none;
+	color: red;
+	
+	 text-align: center;
+	font-weight: 10;
+	font-family: 'Anton', sans-serif;
+	font-size: 2rem;
+	text-transform: capitalize;
+
+
+}
+
+.a{
+	background-image: url(images/tom1.png);
+
+}
+
+.s{
+
+	background-image: url(images/tom2.png);
+
+}
+
+.d{
+	background-image: url(images/tom3.png);
+
+}
+
+.f{
+	background-image: url(images/tom4.png);
+
+}
+
+.g{
+	background-image: url(images/snare.png);
+
+}
+
+.h{
+	background-image: url(images/crash.png);
+
+}
+
+.j{
+	background-image: url(images/kick.png);
+
+
+}
+
+.pressed{
+	opacity: 0.5;
+}
+
+footer{
+text-align: center;
+	/*font-weight: 10;*/
+	font-family:  sans-serif;
+	font-size: 0.8rem;
+	text-transform: capitalize;
+}
